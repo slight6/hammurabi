@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./calculate.js" defer></script>
+    <script src="./app.js" defer></script>
+    <script src="./report.js" defer></script>
+
+    <title>Hammurabi</title>
+</head>
+<body>
+    <header><h1>HAMMURABI</h1></header>
+    <hr />
+    <br />
+
+    <div class="container">
+        
+        <div class="game-info">
+            <table>
+                <thead><h3>GAME-INFO</h3></thead>
+                <tbody>
+                    <tr>
+                        <td>Population</td>
+                        <td>Acres</td>
+                        <td>Grain</td>
+                        <td>Acre Value</td>
+                    </tr>
+                    <tr>
+                        <td id="population"></td>
+                        <td id="acres"></td>
+                        <td id="grain"></td>
+                        <td id="acreValue"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr />
+
+        <div class="output-log">
+            <textarea name="outputInfo" id="outputLog" cols="80" rows="10">Welcome to Hammurabi! To plant each acre you need 3 grain units. Each worker can plant 10 acres. Each citizen requires 3 grain units per year to eat.</textarea>
+        </div>
+
+        <hr />
+
+        <div class="input-box">
+            <textarea name="command" id="inputBox" cols="30" rows="1" placeholder="Enter an Amount"></textarea>
+        </div>
+
+        <div class="action-box">
+            
+
+
+
+
+            <button id="buy">Buy</button>
+            <button id="sell">Sell</button>
+            <button id="feed">Feed</button>
+            <button id="plant">Plant</button>
+            <button id="end">End</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>

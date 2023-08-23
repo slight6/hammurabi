@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #333333;
+    color: #DEFDEF;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: flex;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border: red 1px solid;
+
+}
+
+tr {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border: red 1px solid;
+
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
