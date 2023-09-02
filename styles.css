@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    align-items: center;
 }
 
 body {
@@ -11,6 +12,8 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
@@ -47,6 +50,16 @@ hr {
 
 textarea {
     resize: none;
+}
+
+.btn {
+    padding: 5px 30px;
+    border-radius: 15px;
+}
+
+.command-box {
+    scale: 1.5;
+    margin: 20px;
 }
 
 
